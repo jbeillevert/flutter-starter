@@ -4,6 +4,7 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
+        debugShowCheckedModeBanner: false,
         appBar: AppBar(
           title: const Text("Title app"),
           centerTitle: true,
